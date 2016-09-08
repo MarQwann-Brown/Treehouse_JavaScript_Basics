@@ -1,2 +1,2 @@
-
-alert("Welcome to Treehouse");
+var message = "Hello!";
+alert(message);
