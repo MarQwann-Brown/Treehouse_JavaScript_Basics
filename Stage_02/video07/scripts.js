@@ -1,2 +1,2 @@
-var passphrase = "Hello";
-document.write(passphrase.length);
+var shout = prompt("What would you like to shout?");
+alert(shout.toUpperCase() + "!");
