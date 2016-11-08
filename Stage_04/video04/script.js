@@ -1,7 +1,8 @@
-var randomNumber = Math.floor(Math.random() * 6 ) + 1;
-var guess = prompt('I am thinking of a number between 1 and 6. What is it?');
-if (parseInt(guess) === randomNumber ) {
-  document.write('<p>You guessed the number!</p>');
+var randomNumber = Math.floor(Math.random() * 6) + 1;
+console.log(randomNumber);
+var guess = parseInt(prompt("I picked a number between 1 and 6, what is it?"));
+if (guess === randomNumber) {
+    alert("You guessed correct!");
 } else {
-    document.write('<p>Sorry. The number was ' + randomNumber + '.</p>');
+    alert("Sorry, try again.");
 }

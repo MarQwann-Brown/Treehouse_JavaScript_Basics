@@ -1,5 +1,5 @@
-var id = "23188xtr";
-var lastName = "Smith";
-
-var userName = id.toUpperCase();
-userName += "#" + lasName.toUpperCase();
+function max(first, second) {
+ if (first > second) {
+   return first} else {
+     return second}
+}
